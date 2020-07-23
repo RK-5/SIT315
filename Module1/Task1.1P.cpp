@@ -1,6 +1,6 @@
 void setup()
 {
-  pinMode(2, INPUT);  // Set Digital Pin 2 as Input (IR Sensor)
+  pinMode(2, INPUT);  // Set Digital Pin 2 as Input (PIR Sensor)
   pinMode(3, OUTPUT); // Set Digital Pin 3 as Output (LED)
   Serial.begin(9600); // Open the serial port at 9600 bps:
 }
